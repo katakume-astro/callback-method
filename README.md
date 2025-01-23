@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/d3081913-ec26-43ed-ac6b-7bbb39215d12)# callback-method
 jak obejsc callbacki w fivemie #pseudodevka
 
 -- example server side
