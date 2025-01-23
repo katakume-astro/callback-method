@@ -1,13 +1,15 @@
 jak obejsc callbacki w fivemie #pseudodevka
 
--- example server side
+
 ```
+server side
 lib.callback.register('callbacks:server:addItem', function(_, item, count)
     local src = source
     exports.ox_inventory:AddItem(src, item, count)
 end)
 
 -- trigger this via executor
+client side
 
 local cbEvent = '__ox_cb_%s'
 local resourceName = GetCurrentResourceName()
